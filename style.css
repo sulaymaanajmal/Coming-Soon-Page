@@ -11,6 +11,21 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1::selection {
+    background-color: #a67b5b;
+    color: black;
+}
+
+p::selection {
+    background-color: #a67b5b;
+    color: black;
+}
+
+img::selection {
+    background-color: #a67b5b;
+    color: black;
+}
+
 h1 {
     font-size: 40px;
     margin-top: 0px;
